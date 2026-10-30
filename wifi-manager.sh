@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Wi-Fi profile manager for headless Debian using NetworkManager.
 # Saves WPA2/WPA3-Personal connections without activating them.
+# Created by Freddie Mac - KD5FMU with the help of OpenAI ChatGPT October 30th, 2026
 set -u
 
 IFACE="${WIFI_INTERFACE:-wlan0}"
